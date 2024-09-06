@@ -20,11 +20,10 @@ Ensuite, je m'occuper du dépôt git :
 - Créer une branche "develop" pour le développement des features, bugfix, etc.
 
 ## Création du docker file
-A la racine, créer un fichier nommé Dockerfile
-Une fois fait, tapez la commande : ```docker build -t film_api```
-Vérifiez que l'image s'est bien créée avec la commande ```docker images```
-Créez un container avec la commande ```docker container run --publish 3000:3000 --detach --name film film_api```
-Vérifiez que le container est en cours d'exécution avec la commande ```docker container ls```. Le status doit être à Up
-Ensuite, pour vérifiez que tous fonctionne. Ouvrez un navigateur et tapez l'URL : ```localhost:3000/hello```
-
-
+- A la racine, créer un fichier nommé Dockerfile
+- Une fois fait, tapez la commande : ```docker build -t film_api```
+- Vérifiez que l'image s'est bien créée avec la commande ```docker images```
+- Créez un container avec la commande ```docker container run --publish 3000:3000 --detach --name film film_api```
+- Vérifiez que le container est en cours d'exécution avec la commande ```docker container ls```. Le status doit être à Up
+- Ensuite, pour vérifiez que tous fonctionne. Ouvrez un navigateur et tapez l'URL : ```localhost:3000/hello```
+#
